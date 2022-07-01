@@ -1,0 +1,41 @@
+.titulo{
+    color: indianred;
+    text-align: center;
+}
+
+.contenedorf{
+    background-color:darksalmon;
+    margin: 0 auto;
+    max-width: 100vw;
+    padding: 1.5rem;
+    border: 1px solid rgb(99, 3, 3);
+    border-radius: 1rem;
+    font-weight: 900;
+
+}
+
+.fila{
+    display: flex;
+    flex-direction: column;
+    margin: 0.5rem;
+}
+
+input,select{
+   min-width: 100%;
+    padding: 1rem 0;
+    border: 1px solid rgba(196, 100, 67, 0.928);
+    border-radius: 4px;
+}
+
+.boton{
+    background-color:rgb(99, 3, 3);
+    color:white;
+    cursor: pointer;
+    font-size: 1.3rem;
+    font-weight: bolder;
+}
+body{
+    background: radial-gradient(
+        rgb(166, 0, 0),black
+    )
+}
